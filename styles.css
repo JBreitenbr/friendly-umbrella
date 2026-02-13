@@ -72,7 +72,84 @@ button:hover {
 section {
 
     padding: 150px 20px 40px 20px; /* Platz für fixe Nav */
-
+    margin: 1vw;
     min-height: 100vh;
     font-size: 0.9rem;
+   border-radius: 18px;
+
+  border: 1px solid rgba(0,0,0,.10);
+
+   background:
+
+    radial-gradient(600px 240px at 10% 0%, rgba(255,59,212,.10), transparent 60%),
+
+    radial-gradient(600px 240px at 80% 20%, rgba(34,211,238,.10), transparent 60%),
+
+    rgba(255,255,255,.75);
+
+  box-shadow: 0 14px 34px rgba(0,0,0,.08);
+
+  overflow: hidden;
 }
+
+.track-head{
+
+  display:flex;
+
+  justify-content: space-between;
+
+ /* gap: 12px;*/
+
+  align-items: flex-start;
+
+ padding: 14px 14px 10px;
+  border-radius:5px;
+
+  border: 1px solid rgba(0,0,0,.18);
+
+  background:
+
+    radial-gradient(600px 240px at 10% 0%, rgba(255,59,212,.10), transparent 60%),
+
+    radial-gradient(600px 240px at 80% 20%, rgba(34,211,238,.10), transparent 60%),
+
+    rgba(255,255,255,.75);
+
+}
+
+.track-head h3{
+
+  margin:0;
+
+  font-size: 16px;
+
+  letter-spacing: .2px;
+
+}
+.track-meta{
+
+  margin: 4px 0 0;
+
+  color: rgba(0,0,0,.62);
+
+  font-size: 13px;
+
+}
+
+.tag{
+
+  font-size: 12px;
+
+  padding: 6px 10px;
+
+  border-radius: 999px;
+
+  border: 1px solid rgba(0,0,0,.10);
+
+  background: rgba(255,255,255,.75);
+
+  white-space: nowrap;
+
+}
+
+.track-body{ padding: 12px 14px 14px; }
