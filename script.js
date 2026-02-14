@@ -45,7 +45,7 @@ function randomColor(type) {
   var c; var d;
   if(type == "bright") {
     c = randomNumber(130, 205);
-    c = randomNumber(130,205);
+    d = randomNumber(130,205);
   } else {
     c = randomNumber(110, 190);
     d = randomNumber(110,190);
