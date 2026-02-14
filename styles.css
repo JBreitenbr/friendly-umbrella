@@ -53,7 +53,7 @@ nav a {
 
     color: white;
 
-    margin-right: 15px;
+    margin-right: 2px;
 
     text-decoration: none;
 
@@ -80,7 +80,7 @@ button:hover {
  }
 section {
 
-    padding: 150px 20px 40px 20px; /* Platz für fixe Nav */
+    padding: 200px 20px 40px 20px; /* Platz für fixe Nav */
     margin: 1vw;
     min-height: 100vh;
     font-size: 0.9rem;
