@@ -206,8 +206,8 @@ section {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 50px;
-  left: 50%;
+  top: 10px;
+  left: 15%;
   margin-left: -50px;
   -webkit-animation: rotateDiscoBall 18s linear infinite;
   animation: rotateDiscoBall 18s linear infinite;
@@ -217,8 +217,8 @@ section {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 50px;
-  left: 50%;
+  top: 10px;
+  left: 15%;
   margin-left: -50px; 
   border-radius: 100%;
   background-color: white; 
