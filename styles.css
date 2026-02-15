@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Chicle&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chicle&family=Monoton&display=swap');
 body {
 
    background-color: #deebf7;
@@ -47,8 +47,7 @@ nav {
   transform: translateX(32vw);
   text-transform: uppercase;
   color: #f3e479;
-  font-family: Chicle;
-  letter-spacing: 2px;
+  font-family: Monoton;
 }
 .wrapper {margin-top:5px;
           display: flex;
@@ -67,6 +66,8 @@ nav a {
 
     transition: 0.3s;
     text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family: Chicle;
   }
 
   nav a:hover {
