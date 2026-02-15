@@ -48,6 +48,7 @@ nav {
   text-transform: uppercase;
   color: #f3e479;
   font-family: Chicle;
+  letter-spacing: 2px;
 }
 .wrapper {margin-top:5px;
           display: flex;
