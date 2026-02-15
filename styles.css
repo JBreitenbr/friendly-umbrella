@@ -90,7 +90,7 @@ button:hover {
  /* text-shadow: 0 0 8px yellow, 0 0 16px yellow;*/
  }
 section {
-
+    font-family: Vidaloka;
     padding: 200px 20px 40px 20px; /* Platz für fixe Nav */
     margin: 1vw;
     min-height: 100vh;
