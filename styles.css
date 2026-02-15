@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Chicle&family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Chicle&family=Monoton&family=Vidaloka');
 body {
 
    background-color: #deebf7;
@@ -8,7 +8,9 @@ body {
    scroll-behavior: smooth;
 
 }
-
+h3 {
+   font-family: Vidaloka;
+}
 nav {
 
     position: fixed;
