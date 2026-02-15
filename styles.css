@@ -45,7 +45,42 @@ nav {
 
     font-size: 0.9rem;
 
-  } 
+  } /*
+Source - https://stackoverflow.com/a/24363483
+Posted by Paulie_D, modified by community. See post 'Timeline' for change history
+Retrieved 2026-02-15, License - CC BY-SA 4.0
+*/
+
+.animation_background_test{
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;    
+    -webkit-animation-play-state: running;
+    
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+   /* background-color: #f00;*/
+}
+
+@-webkit-keyframes animation {
+    0%     {color:#f30f58;}
+    25.0% {color:#f8a26d;}
+    50.0%  {color:#f3e479;}
+    75.0% {color: #08ea90;}
+    100.0%  {color:#07e2a7;}
+}
+
+@keyframes animation {
+    0%     {color:#f30f58;}
+    25.0% {color:#f8a26d;}
+    50.0%  {color:#f3e479;}
+    75.0% {color:#08ea90;}
+    100.0%  {color:#07e2a7;}
+}
 .italo {
   display: flex;
   flex-direction: column;
