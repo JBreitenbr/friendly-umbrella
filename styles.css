@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle&display=swap');
 body {
 
    background-color: #deebf7;
@@ -46,6 +47,7 @@ nav {
   transform: translateX(32vw);
   text-transform: uppercase;
   color: #f3e479;
+  font-family: Chicle;
 }
 .wrapper {margin-top:5px;
           display: flex;
